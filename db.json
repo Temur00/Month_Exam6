@@ -10,15 +10,6 @@
       "category": "laptops"
     },
     {
-      "id": "10",
-      "title": "HP Pavilion 15-DK1056WM",
-      "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
-      "brand": "HP Pavilion",
-      "price": 1099,
-      "discountPercentage": 6.18,
-      "category": "laptops"
-    },
-    {
       "id": "11",
       "title": "perfume Oil",
       "description": "Mega Discount, Impression of Acqua Di Gio by GiorgioArmani concentrated attar perfume Oil",
@@ -212,6 +203,17 @@
       "discountPercentage": "100",
       "description": "The newest ",
       "brand": "Samsung"
+    },
+    {
+      "0": {
+        "title": "",
+        "brand": "",
+        "price": "",
+        "discountPercentage": "",
+        "category": ""
+      },
+      "id": "db05",
+      "title": "asas"
     }
   ]
 }

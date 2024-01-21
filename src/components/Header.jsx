@@ -8,7 +8,7 @@ const Header = ({ user }) => {
         <div className="products">
           <p className="pro-text">Products</p>
           <div className="links d-flex gap-1">
-            <Link className="link-to-link" to="/">
+            <Link className="link-to-link text-black" to="/">
               Main
             </Link>
             <p>/</p>
@@ -18,10 +18,15 @@ const Header = ({ user }) => {
           </div>
         </div>
         {user ? (
-          <Link to="/profile">{user.name}</Link>
+          <Link
+            className="text-black list-style-none text-decoration-none"
+            to="/profile"
+          >
+            {user.name}
+          </Link>
         ) : (
           <div className="btn-wide">
-            <NavLink to="/login">
+            <NavLink to="/login" className={login}>
               <img src="logout.png" alt="logout" />
               Loguot
             </NavLink>

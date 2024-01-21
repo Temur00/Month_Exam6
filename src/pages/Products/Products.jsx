@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Products.scss";
-import { Navigate, useNavigate } from "react-router-dom";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 import Table from "react-bootstrap/Table";
 // import productsData from "../../../db.json";
 import { Form } from "react-bootstrap";
@@ -150,7 +150,9 @@ const AllProducts = ({ user, setEditing }) => {
         </Table>
       </div>
       <div className="text-center">
-        <button className="w-25 btn btn-success">Add Product</button>
+        <Link to={"/AddProducts"}>
+          <button className="w-25 mt-3 btn btn-success">Add Product</button>
+        </Link>
       </div>
     </div>
   );

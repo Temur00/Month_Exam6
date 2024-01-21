@@ -12,7 +12,7 @@ const Sidebar = () => {
         <NavLink to="/" className="settings-icon">
           <img src="settings.png" alt="Logo" />
         </NavLink>
-        <NavLink to="/login" className="admin-icon">
+        <NavLink to="/profile" className="admin-icon">
           <img src="admin.png" alt="Logo" />
         </NavLink>
         <NavLink to="/AddProducts" className="users-icon">

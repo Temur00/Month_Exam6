@@ -180,23 +180,6 @@
         "discountPercentage": "",
         "category": ""
       },
-      "id": "1be6",
-      "brand": "hp",
-      "title": "Pavilion",
-      "price": "12000",
-      "discountPercentage": "200",
-      "description": "not bad",
-      "category": "laptops"
-    },
-    {
-      "0": {
-        "title": "",
-        "description": "",
-        "brand": "",
-        "price": "",
-        "discountPercentage": "",
-        "category": ""
-      },
       "id": "5afc",
       "title": "Samsung S24 Ultra",
       "price": "1200",
@@ -207,13 +190,35 @@
     {
       "0": {
         "title": "",
+        "description": "",
         "brand": "",
         "price": "",
         "discountPercentage": "",
         "category": ""
       },
-      "id": "db05",
-      "title": "asas"
+      "id": "1383",
+      "title": "Samsung S24 ULTRA",
+      "price": "2000",
+      "discountPercentage": "50",
+      "description": "THE NEWEST ",
+      "brand": "Samsung"
+    },
+    {
+      "0": {
+        "title": "",
+        "description": "",
+        "brand": "",
+        "price": "",
+        "discountPercentage": "",
+        "category": ""
+      },
+      "id": "fdaf",
+      "category": "groceries",
+      "brand": "Samsung",
+      "description": "ass",
+      "price": "ss",
+      "discountPercentage": "ss",
+      "title": "ss"
     }
   ]
 }

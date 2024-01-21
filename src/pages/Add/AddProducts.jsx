@@ -40,7 +40,7 @@ const AddProducts = ({ user }) => {
           <input
             type="name"
             id="title"
-            className="form-control w-75 mb-5"
+            className="form-control w-75 mb-3"
             required
             onChange={(e) => setPost({ ...post, title: e.target.value })}
             value={post.title}
@@ -49,7 +49,7 @@ const AddProducts = ({ user }) => {
 
           <div className="inp-price-others d-flex justify-content-between mb-4">
             <div>
-              <label className="mb-4">Price</label>
+              <label className="mb-3">Price</label>
               <input
                 type="text"
                 name="price"
@@ -77,7 +77,7 @@ const AddProducts = ({ user }) => {
           </div>
 
           <div className="d-block">
-            <label className="inp-desc mb-2 text-center justify-content-center">
+            <label className="inp-desc mb-1 text-center justify-content-center">
               <p>Description</p> <p>*</p>
             </label>
             <textarea

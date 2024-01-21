@@ -21,6 +21,13 @@
 
 .user-name {
   font-size: 32px;
-  padding-left: 470px !important;
+  padding-left: 150px !important;
   font-weight: 500;
+}
+
+.all-details {
+  padding-left: 450px;
+  input {
+    width: 200px;
+  }
 }

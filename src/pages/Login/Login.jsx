@@ -16,11 +16,11 @@ const Login = ({ setUser }) => {
   };
 
   return (
-    <div>
+    <div className="all-details mx-auto">
       <p className="add">Please add your details 📄</p>
-      <label className="user-name mt-2 ">Name :</label>
+      <label className="user-name ps-3">Name :</label>
       <input
-        className="form-control w-25 mx-auto mb-3"
+        className="form-control w-50 mx-auto mb-3"
         type="text"
         name="name"
         id="name"
@@ -30,7 +30,7 @@ const Login = ({ setUser }) => {
       />
       <label className="user-name">Username :</label>
       <input
-        className="form-control w-25 mx-auto mb-3"
+        className="form-control w-50 mx-auto mb-3"
         type="text"
         name="username"
         id="username"
@@ -41,7 +41,7 @@ const Login = ({ setUser }) => {
       <div className="butn w-100 text-center">
         <button
           onClick={handleLogin}
-          className="btn btn-success butn w-25 mx-auto mb-3 mt-5"
+          className="btn btn-success butn w-50 mx-auto mb-3 mt-5"
           type="submit"
         >
           Add

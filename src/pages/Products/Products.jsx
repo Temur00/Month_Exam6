@@ -1,20 +1,22 @@
 import React, { useEffect, useState } from "react";
 import "./Products.scss";
-import { Link, Navigate, useNavigate } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 import Table from "react-bootstrap/Table";
-// import productsData from "../../../db.json";
+import Pagination from "react-bootstrap/Pagination";
 import { Form } from "react-bootstrap";
-
-// Edit
-
-import "axios";
-
 import axios from "axios";
+
+const ITEMS_PER_PAGE = 3;
 
 const AllProducts = ({ user, setEditing }) => {
   const [products, setProducts] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [searched, setSearched] = useState("");
+  const [currentPage, setCurrentPage] = useState(1);
+
+  useEffect(() => {
+    fetchProducts();
+  }, []);
 
   const fetchProducts = async () => {
     try {
@@ -25,20 +27,6 @@ const AllProducts = ({ user, setEditing }) => {
       console.log(error);
     }
   };
-
-  // const done = useNavigate();
-
-  // const fetchProducts = () => {
-  //   try {
-  //     setProducts(productsData.products);
-  //   } catch (error) {
-  //     console.log(error);
-  //   }
-  // };
-
-  useEffect(() => {
-    fetchProducts();
-  }, []);
 
   const handleCategory = (e) => {
     setSelectedCategory(e.target.value);
@@ -63,16 +51,28 @@ const AllProducts = ({ user, setEditing }) => {
       )
     : filteredProducts;
 
+  // Pagination
+  const indexOfLastProduct = currentPage * ITEMS_PER_PAGE;
+  const indexOfFirstProduct = indexOfLastProduct - ITEMS_PER_PAGE;
+  const currentProducts = searchedProducts.slice(
+    indexOfFirstProduct,
+    indexOfLastProduct
+  );
+
+  const paginate = (pageNumber) => setCurrentPage(pageNumber);
+
+  const totalPages = Math.ceil(searchedProducts.length / ITEMS_PER_PAGE);
+
   if (!user) {
     return <Navigate to="/login" replace />;
   }
 
   const handleDelete = (id) => {
-    if (confirm("Are you sure you want to delete this product? ❌")) {
+    if (window.confirm("Are you sure you want to delete this product? ❌")) {
       axios
         .delete(`http://localhost:3000/products/${id}`)
         .then((res) => {
-          console.log("Product deleted succesfully ✅", res.data);
+          console.log("Product deleted successfully ✅", res.data);
         })
         .catch((error) => {
           console.log("The product was not deleted ❌");
@@ -122,7 +122,7 @@ const AllProducts = ({ user, setEditing }) => {
             </tr>
           </thead>
           <tbody>
-            {searchedProducts.map((product) => (
+            {currentProducts.map((product) => (
               <tr key={product.id}>
                 <td>
                   <input type="checkbox" />
@@ -134,7 +134,7 @@ const AllProducts = ({ user, setEditing }) => {
                 <td className="disc-price">{product.discountPercentage}</td>
                 <td>{product.category}</td>
                 <td className="actions d-flex">
-                  <button onClick={AllProducts}>
+                  <button onClick={() => setEditing(product.id)}>
                     <img src="edit.png" alt="img" />
                   </button>
                   <button
@@ -148,10 +148,23 @@ const AllProducts = ({ user, setEditing }) => {
             ))}
           </tbody>
         </Table>
+        <div className="d-flex justify-content-center">
+          <Pagination>
+            {Array.from({ length: totalPages }, (_, index) => (
+              <Pagination.Item
+                key={index + 1}
+                active={index + 1 === currentPage}
+                onClick={() => paginate(index + 1)}
+              >
+                {index + 1}
+              </Pagination.Item>
+            ))}
+          </Pagination>
+        </div>
       </div>
       <div className="text-center">
         <Link to={"/AddProducts"}>
-          <button className="w-25 mt-3 btn btn-success">Add Product</button>
+          <button className="w-25 mt-5 btn btn-success">Add Product</button>
         </Link>
       </div>
     </div>

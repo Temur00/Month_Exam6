@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  width: 100vh;
+}
+
+.all-inputs {
+  margin-top: 40px;
+  margin-left: 40px;
+  padding-left: 25px;
+  padding-top: 6px;
+  width: 1179px;
+  height: 650px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #fff;
+  p {
+    color: #212121;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72%; /* 10.08px */
+  }
+
+  .inline-inputs {
+    padding-left: 49px;
+  }
+  .inp-name {
+    width: 104px;
+    height: 38px;
+    margin-left: -25px;
+    gap: 2px;
+    border-radius: 5px;
+    background: #f0f0f6;
+    color: #212121;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72%;
+    background: none;
+    p:first-child {
+      padding-top: 10px;
+      color: #212121;
+      font-family: Mulish;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 72%; /* 10.8px */
+    }
+    p:nth-child(2) {
+      padding-top: 8px;
+      color: #f1419d;
+      font-family: Mulish;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 72%;
+    }
+  }
+  label {
+    display: flex;
+  }
+  .inp-desc {
+    width: 104px;
+    margin-left: -10px;
+    gap: 2px;
+    border-radius: 5px;
+    background: #f0f0f6;
+    color: #212121;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72%;
+    background: none;
+    p:first-child {
+      padding-top: 10px;
+      color: #212121;
+      font-family: Mulish;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 72%; /* 10.8px */
+    }
+    p:nth-child(2) {
+      padding-top: 8px;
+      color: #f1419d;
+      font-family: Mulish;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 72%;
+    }
+  }
+  .text-area {
+    border-radius: 6px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    resize: none;
+  }
+
+  .inp-price-others {
+    margin-right: 280px;
+    label {
+      color: #212121;
+      font-family: Mulish;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 72%; /* 10.8px */
+    }
+    .form-control {
+      width: 350px;
+    }
+  }
+
+  .inp-brand-others {
+    margin-top: 80px;
+    margin-right: 280px;
+    label {
+      border: none;
+      color: #212121;
+      font-family: Mulish;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 72%; /* 10.8px */
+      p:first-child {
+        padding-top: 10px;
+        color: #212121;
+        font-family: Mulish;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 72%; /* 10.8px */
+      }
+      p:nth-child(2) {
+        padding-top: 8px;
+        color: #f1419d;
+        font-family: Mulish;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 72%;
+      }
+    }
+    select {
+      border-radius: 6px;
+      border: 1px solid #cccccc;
+    }
+  }
+}
+
+footer {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  height: 80px;
+  background: #fff;
+  box-shadow: 0px 5px 40px 0px rgba(33, 33, 33, 0.05);
+  button:first-child {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 6px;
+    background: #1bc58d;
+    color: #fff;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 72%; /* 10.08px */
+  }
+  button:nth-child(2) {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: none;
+    border: 1px solid #1bc58d;
+    border-radius: 6px;
+    color: #1bc58d;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 72%; /* 10.08px */
+  }
+}

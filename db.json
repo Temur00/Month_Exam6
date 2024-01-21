@@ -1,0 +1,217 @@
+{
+  "products": [
+    {
+      "id": "9",
+      "title": "Infinix INBOOK",
+      "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
+      "brand": "Infinix",
+      "price": 1099,
+      "discountPercentage": 11.83,
+      "category": "laptops"
+    },
+    {
+      "id": "10",
+      "title": "HP Pavilion 15-DK1056WM",
+      "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+      "brand": "HP Pavilion",
+      "price": 1099,
+      "discountPercentage": 6.18,
+      "category": "laptops"
+    },
+    {
+      "id": "11",
+      "title": "perfume Oil",
+      "description": "Mega Discount, Impression of Acqua Di Gio by GiorgioArmani concentrated attar perfume Oil",
+      "brand": "Impression of Acqua Di Gio",
+      "price": 13,
+      "discountPercentage": 8.4,
+      "category": "fragrances"
+    },
+    {
+      "id": "12",
+      "title": "Brown Perfume",
+      "description": "Royal_Mirage Sport Brown Perfume for Men & Women - 120ml",
+      "brand": "Royal_Mirage",
+      "price": 40,
+      "discountPercentage": 15.66,
+      "category": "fragrances"
+    },
+    {
+      "id": "13",
+      "title": "Fog Scent Xpressio Perfume",
+      "description": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
+      "brand": "Fog Scent Xpressio",
+      "price": 13,
+      "discountPercentage": 8.14,
+      "category": "fragrances"
+    },
+    {
+      "id": "14",
+      "title": "Non-Alcoholic Concentrated Perfume Oil",
+      "description": "Original Al Munakh® by Mahal Al Musk | Our Impression of Climate | 6ml Non-Alcoholic Concentrated Perfume Oil",
+      "brand": "Al Munakh",
+      "price": 120,
+      "discountPercentage": 15.6,
+      "category": "fragrances"
+    },
+    {
+      "id": "15",
+      "title": "Eau De Perfume Spray",
+      "description": "Genuine  Al-Rehab spray perfume from UAE/Saudi Arabia/Yemen High Quality",
+      "brand": "Lord - Al-Rehab",
+      "price": 30,
+      "discountPercentage": 10.99,
+      "category": "fragrances"
+    },
+    {
+      "id": "16",
+      "title": "Hyaluronic Acid Serum",
+      "description": "L'OrÃ©al Paris introduces Hyaluron Expert Replumping Serum formulated with 1.5% Hyaluronic Acid",
+      "brand": "L'Oreal Paris",
+      "price": 19,
+      "discountPercentage": 13.31,
+      "category": "skincare"
+    },
+    {
+      "id": "17",
+      "title": "Tree Oil 30ml",
+      "description": "Tea tree oil contains a number of compounds, including terpinen-4-ol, that have been shown to kill certain bacteria,",
+      "brand": "Hemani Tea",
+      "price": 12,
+      "discountPercentage": 4.09,
+      "category": "skincare"
+    },
+    {
+      "id": "19",
+      "title": "Skin Beauty Serum.",
+      "description": "Product name: rorec collagen hyaluronic acid white face serum riceNet weight: 15 m",
+      "brand": "ROREC White Rice",
+      "price": 46,
+      "discountPercentage": 10.68,
+      "category": "skincare"
+    },
+    {
+      "id": "20",
+      "title": "Freckle Treatment Cream- 15gm",
+      "description": "Fair & Clear is Pakistan's only pure Freckle cream which helpsfade Freckles, Darkspots and pigments. Mercury level is 0%, so there are no side effects.",
+      "brand": "Fair & Clear",
+      "price": 70,
+      "discountPercentage": 16.99,
+      "category": "skincare"
+    },
+    {
+      "id": "21",
+      "title": "- Daal Masoor 500 grams",
+      "description": "Fine quality Branded Product Keep in a cool and dry place",
+      "brand": "Saaf & Khaas",
+      "price": 20,
+      "discountPercentage": 4.81,
+      "category": "groceries"
+    },
+    {
+      "id": "22",
+      "title": "Elbow Macaroni - 400 gm",
+      "description": "Product details of Bake Parlor Big Elbow Macaroni - 400 gm",
+      "brand": "Bake Parlor Big",
+      "price": 14,
+      "discountPercentage": 15.58,
+      "category": "groceries"
+    },
+    {
+      "id": "23",
+      "title": "Orange Essence Food Flavou",
+      "description": "Specifications of Orange Essence Food Flavour For Cakes and Baking Food Item",
+      "brand": "Baking Food Items",
+      "price": 14,
+      "discountPercentage": 8.04,
+      "category": "groceries"
+    },
+    {
+      "id": "24",
+      "title": "cereals muesli fruit nuts",
+      "description": "original fauji cereal muesli 250gm box pack original fauji cereals muesli fruit nuts flakes breakfast cereal break fast faujicereals cerels cerel foji fouji",
+      "brand": "fauji",
+      "price": 46,
+      "discountPercentage": 16.8,
+      "category": "groceries"
+    },
+    {
+      "id": "25",
+      "title": "Gulab Powder 50 Gram",
+      "description": "Dry Rose Flower Powder Gulab Powder 50 Gram • Treats Wounds",
+      "brand": "Dry Rose",
+      "price": 70,
+      "discountPercentage": 13.58,
+      "category": "groceries"
+    },
+    {
+      "id": "26",
+      "title": "Plant Hanger For Home",
+      "description": "Boho Decor Plant Hanger For Home Wall Decoration Macrame Wall Hanging Shelf",
+      "brand": "Boho Decor",
+      "price": 41,
+      "discountPercentage": 17.86,
+      "category": "home-decoration"
+    },
+    {
+      "id": "28",
+      "title": "3D Embellishment Art Lamp",
+      "description": "3D led lamp sticker Wall sticker 3d wall art light on/off button  cell operated (included)",
+      "brand": "LED Lights",
+      "price": 20,
+      "discountPercentage": 16.49,
+      "category": "home-decoration"
+    },
+    {
+      "id": "29",
+      "title": "Handcraft Chinese style",
+      "description": "Handcraft Chinese style art luxury palace hotel villa mansion home decor ceramic vase with brass fruit plate",
+      "brand": "luxury palace",
+      "price": 60,
+      "discountPercentage": 15.34,
+      "category": "home-decoration"
+    },
+    {
+      "id": "30",
+      "title": "Key Holder",
+      "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
+      "brand": "Golden",
+      "price": 30,
+      "discountPercentage": 2.92,
+      "category": "home-decoration"
+    },
+    {
+      "0": {
+        "title": "",
+        "description": "",
+        "brand": "",
+        "price": "",
+        "discountPercentage": "",
+        "category": ""
+      },
+      "id": "1be6",
+      "brand": "hp",
+      "title": "Pavilion",
+      "price": "12000",
+      "discountPercentage": "200",
+      "description": "not bad",
+      "category": "laptops"
+    },
+    {
+      "0": {
+        "title": "",
+        "description": "",
+        "brand": "",
+        "price": "",
+        "discountPercentage": "",
+        "category": ""
+      },
+      "id": "5afc",
+      "title": "Samsung S24 Ultra",
+      "price": "1200",
+      "discountPercentage": "100",
+      "description": "The newest ",
+      "brand": "Samsung"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sidebar {
+  font-family: Mulish, sans-serif;
+  display: block;
+  width: 97px;
+  height: 860px;
+  flex-shrink: 0;
+  background: #3737db;
+  box-shadow: 10px 0px 50px 0px rgba(0, 0, 0, 0.05);
+}
+.main-icon {
+  cursor: pointer;
+  margin-left: 24px;
+  margin-top: 30px;
+}
+.main-icon .active {
+  width: 50px;
+  height: 50px;
+}
+.settings-icon {
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 24px;
+  border-radius: 12px;
+  margin-top: 38px;
+  width: 49px;
+  height: 50px;
+  transition: 0.4s;
+}
+
+.admin-icon {
+  cursor: pointer;
+
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 24px;
+  border-radius: 12px;
+  width: 49px;
+  height: 50px;
+  transition: 0.4s;
+}
+
+.users-icon {
+  cursor: pointer;
+
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 24px;
+  border-radius: 12px;
+  width: 49px;
+  height: 50px;
+  transition: 0.4s;
+}
+
+.header {
+  font-family: "Mulish", sans-serif;
+  padding-left: 40px;
+  padding-right: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1267px;
+  height: 80px;
+  flex-shrink: 0;
+  background: #fff;
+  box-shadow: 0px 5px 40px 0px rgba(33, 33, 33, 0.05);
+  .products {
+    .pro-text {
+      padding-top: 16px;
+      color: #212121;
+      font-family: Mulish;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+    }
+    .links {
+      .link-to-link {
+        text-decoration: none;
+        color: #b5b5c3 !important;
+        font-family: Mulish;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 21px; /* 161.538% */
+      }
+      p {
+        color: #b5b5c3 !important;
+        text-decoration: none;
+        font-family: Mulish;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 21px; /* 161.538% */
+      }
+    }
+  }
+  .btn-wide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 105px;
+    height: 40px;
+    border-radius: 6px;
+    background: #f7f7ff;
+    transition: 0.4s;
+    cursor: pointer;
+  }
+  .btn-wide:hover {
+    background: #e3e3e3;
+  }
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: none;
+    width: 81px;
+    height: 20px;
+    display: flex;
+    gap: 16px;
+    border-radius: 6px;
+    color: #212121;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    outline: none;
+    line-height: 72%; /* 10.08px */
+  }
+}
+.active {
+  border-radius: 12px;
+  background: #6c6de5;
+}
